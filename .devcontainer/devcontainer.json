@@ -1,13 +1,4 @@
 {
   "name": "Android",
-  "image": "mcr.microsoft.com/devcontainers/java:17",
-
-  "features": {
-    "ghcr.io/devcontainers/features/android-sdk:2": {
-      "installBuildTools": true,
-      "installPlatformTools": true
-    }
-  },
-
-  "forwardPorts": [8080]
+  "image": "budtmo/docker-android-sdk:latest"
 }
