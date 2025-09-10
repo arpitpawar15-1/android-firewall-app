@@ -1,0 +1,14 @@
+{
+  "name": "Android",
+  "image": "mcr.microsoft.com/devcontainers/java:11",
+
+  "features": {
+    "ghcr.io/devcontainers/features/android-sdk:2": {
+      "installBuildTools": true,
+      "installPlatformTools": true
+    }
+  },
+
+  "forwardPorts": [8080],
+  "postCreateCommand": "sudo chown -R codespace /usr/local/android-sdk"
+}
