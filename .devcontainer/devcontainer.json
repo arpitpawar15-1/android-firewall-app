@@ -1,6 +1,6 @@
 {
   "name": "Android",
-  "image": "mcr.microsoft.com/devcontainers/java:11",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
 
   "features": {
     "ghcr.io/devcontainers/features/android-sdk:2": {
@@ -9,6 +9,5 @@
     }
   },
 
-  "forwardPorts": [8080],
-  "postCreateCommand": "sudo chown -R codespace /usr/local/android-sdk"
+  "forwardPorts": [8080]
 }
